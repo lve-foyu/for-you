@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Web dedicated for my love</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+    <!--Fonts-->
+
+</head>
+
+<style>
+    #error-message {
+        display: none;
+    }
+</style>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Pregunta -->
+    <div id="question-section" class="min-h-screen flex items-center justify-center bg-white">
+        <div class="bg-white shadow-md rounded-lg p-6 max-w-md mx-auto">
+            <h2 class="text-xl font-semibold mb-4">Responde correctamente para entrar</h2>
+            <p class="mb-4">Nombre del amor de mi vida: </p>
+            <input type="text" id="answer"
+                class="w-full p-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300 mb-4"
+                placeholder="Tu respuesta">
+            <button onclick="checkAnswer()" class="w-full bg-blue-500 text-white p-2 rounded-lg">Probar</button>
+            <p id="error-message" class="text-red-500 mt-4">Respuesta incorrecta. Inténtalo de nuevo.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
