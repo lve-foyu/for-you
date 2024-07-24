@@ -1,0 +1,26 @@
+.content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    user-select: none;
+    color: rgb(49, 49, 49);
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+}
+
+.autor {
+    font-size: 11px;
+    opacity: 80%;
+}
+
+.name {
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+}
+
+
+.title {
+    font-weight: 400;
+}
